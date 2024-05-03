@@ -11,7 +11,7 @@ public class BoletimEscolar {
 
     public static void main(String[] args) {
         while(true){
-      String input = JOptionPane.showInputDialog("Qual anota do aluno?");
+      String input = JOptionPane.showInputDialog("Insira a nota do aluno?");
        try{
         int notaDoAluno = Integer.parseInt(input);
         
